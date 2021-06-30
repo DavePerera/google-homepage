@@ -2,7 +2,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 240px;
+    margin-top: 185px;
     position: relative;
 }
 
@@ -19,11 +19,11 @@ nav div {
 
 }
 
-nav .top-left {
+nav div:nth-child(1) {
     justify-content: start;
 }
 
-nav .top-right {
+nav div:nth-child(2) {
     justify-content: flex-end;
     text-align: right;
     right: 0;
@@ -33,5 +33,13 @@ nav .top-right {
     border-radius: 50%;
     height: 45px;
     width: 45px;
+}
+
+footer {
+    background-color: #dadce0;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
